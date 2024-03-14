@@ -1,0 +1,55 @@
+body {
+    /* margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to viewport height */
+    margin-top: 90px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    
+    align-items: center; /* Center the content vertically */
+    background-color: #f4f4f4;
+} */
+
+.login-card-body{
+    
+    background-color:#fff;
+    border-top: 0;
+    color: #666;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 1px rgba(26, 103, 134, 0.125), 0 1px 3px rgba(0,0,0,.2);
+      
+}
+.card{
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+
+}
+
+.btn{
+    position: relative;
+    left: 340px; /* Adjust this value to move the button horizontally */
+    /* right: 60px; Adjust this value to move the button vertically */
+    font-size: 20px;
+    
+    
+ 
+}
+#lgn{
+    
+    height: 30px;
+}
+#logo{
+    
+ display: block; /* Makes the image a block-level element */
+  margin: 0 auto; /* Centers the block-level element horizontally */
+}
+
