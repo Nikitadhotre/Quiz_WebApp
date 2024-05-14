@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Online Quiz Management System</h1>
+        <div class="fac">
+            <p id="faculty">Faculty</p>
+            <button id="button"></button>
+        </div>
+    </div>
+    <div class="navbar1">
+        <div class="diems"></div>
+        <a id="home" href="home.php">
+            <div id="ho"></div>Home
+        </a> 
+        <a id="creat" href="create.html">
+            <div id="cr" ></div>Create Quiz</a>
+        <a id="update" href="update.php">
+            <div id="upd"></div>Update Quiz</a>
+        <a id="history" href="history.php">
+            <div id="his"></div>History</a>
+        <a id="profile" href="profile.html">
+            <div id="pro"></div>Profile</a>
+        
+    </div>
+    <div class="content">
+        <div id="up"><p style="color: black;" >Create Quiz</p></div>
+        <form class="quizes" style="border:2px solid black;height:420px;" method="post" action="create.php">
+           <a id="quiz_one">1. Subject Name. <input type="text" name="text1" id="text1" style="margin-left: 200px;width:400px;"> </a>  
+           <a id="quiz_two">2. Title of Quiz. <input type="text" name="text2" id="text2" style="margin-left: 215px;width:400px;"> </a> 
+           <a id="quiz_three">3. Total Marks. <input type="text" id="text3" style="margin-left: 223px;width:400px;"> </a> 
+           <a id="quiz_four">4. Time Duration. <input type="text" id="text4" name="text4" style="margin-left: 193px;width:400px;"> </a> 
+           <a id="quiz_five">5. Date. <input type="text" id="text5" name="text5" placeholder="  year-month-date" style="margin-left: 311px;width:400px;"> </a> 
+           <a id="quiz_five" style="position: relative;top:120px;">6. Starting Time. <input type="time" id="text5" name="text6"  placeholder="HH:MM:SS AM/PM" style="margin-left: 204px;width:400px;"> </a> 
+           <button id="button1" style="position: relative; top:140px;">Next</button>
+        </form>
+    </div>
+</body>
+</html>

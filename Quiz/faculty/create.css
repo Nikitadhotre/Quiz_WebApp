@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    color:white;
+    background-color: red;
+    height: 60px;
+    width:1529px;
+    display: flex;
+    justify-content:space-between;
+    padding-top:5px ;
+}
+.fac{
+    padding-top: 8px;
+    padding-right: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#button{
+    width: 20px;
+    height: 20px;
+    background-image: url("logout.png");
+    background-size: cover;
+    margin-top: 6px ;
+    margin-left: 5px;
+}
+#button:hover{
+    box-shadow: 5px 5px 5px 0px rgb(236, 232, 232);
+}
+.navbar1{
+    color: black;
+    background-color:rgb(227, 223, 223);
+    width:280px;
+    height: 600px;
+    padding-top:10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    top:66px;
+    z-index: 1;
+  
+}
+.diems{
+    background-image: url("Diems.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+#home{
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    display: flex;
+    padding-left: 61px;
+    padding-right: 61px;
+    color: black;
+    text-decoration: none;
+}
+#home:hover{
+    box-shadow: 6px 6px 6px 0px gray;
+}
+#ho{
+    background-image: url("home.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#creat{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    padding-left: 38px;
+    padding-right: 38px;
+    color: black;
+    text-decoration: none;
+}
+#creat:hover{
+    box-shadow: 6px 6px 6px 0px gray;
+}
+#cr{
+    background-image: url("add.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#update{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+#update:hover{
+    box-shadow: 6px 6px 6px 0px gray;
+}
+#upd{
+    background-image: url("update.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#history{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    padding-left: 52px;
+    padding-right: 52px;
+    color: black;
+    text-decoration: none;
+}
+#history:hover{
+    box-shadow: 6px 6px 6px 0px gray;
+}
+#his{
+    background-image: url("history.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+#profile{
+    font-weight: bold;  
+   font-size: 20px;
+   display: flex;
+   border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    padding-left: 53px;
+    padding-right: 53px;
+    color: black;
+    text-decoration: none;
+}
+#profile:hover{
+        box-shadow: 6px 6px 6px 0px gray;
+}
+#pro{
+    background-image: url("profile.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.content{
+   color:black
+}
+#up{
+    position: relative;
+    top: 43px;
+    left: 796px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:35px;
+
+}
+.quizes{
+    position: relative;
+    top: 90px;
+    left:500px;
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width:  850px;
+    background-color:rgb(227, 223, 223);
+}
+#text1{
+    width: 150px;
+    height: 20px;
+    margin-left: 430px;
+}
+
+#text2{
+    width: 150px;
+    height: 20px;
+    margin-left:311px;          
+}
+#text3{
+    width: 150px;
+    height: 20px;
+    margin-left:425px;
+}
+#text4{
+    width: 150px;
+    height: 20px;
+    margin-left:394px;
+}
+#text5{
+    width: 150px;
+    height: 20px;
+    margin-left: 514px;
+}
+#quiz_one{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+#quiz_two{
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+#quiz_three{
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+#quiz_four{
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+#quiz_five{
+    position: relative;
+    top:100px;
+    left: 15px;
+}
+#button1{
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(247, 57, 57);
+    position: relative;
+    top: 120px;
+    left: 340px;
+}
+#button1:hover{
+    background-color: rgb(248, 147, 147);
+    box-shadow: 6px 6px 6px 0px gray;
+}
+

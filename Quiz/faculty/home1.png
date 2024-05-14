@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Online Quiz Management System</h1>
+        <div class="fac">
+            <p id="faculty">Faculty</p>
+            <button id="button"></button>
+        </div>
+    </div>
+    <div class="navbar1">
+        <div class="diems"></div>
+        <a id="home">
+            <div id="ho"></div>Home
+        </a> 
+        <a id="creat">
+            <div id="cr"></div>Creat Quiz</a>
+        <a id="update">
+            <div id="upd"></div>Update Quiz</a>
+        <a id="history">
+            <div id="his"></div>History</a>
+        <a id="profile">
+            <div id="pro"></div>Profile</a>
+        
+    </div>
+    <div class="content">
+        <div id="up"><p style="color: black;" >Upcoming Quizes</p></div>
+        <div class="quizes">
+           <a id="quiz_one">1. DAA CA-1 Quiz - Duration: 1hr <button id="del1"></button> </a> 
+           <a id="quiz_two">2. Mathematics CA-1 Quiz - Duration: 1hr <button id="del2"></button> </a> 
+           <a id="quiz_three">3. DLDM CA-1 Quiz - Duration: 1hr <button id="del3"></button> </a> 
+        </div>
+    </div>
+</body>
+</html>

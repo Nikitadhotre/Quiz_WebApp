@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Online Quiz Management System</h1>
+        <div class="fac">
+            <p id="faculty">Faculty</p>
+            <button id="button"></button>
+        </div>
+    </div>
+    <div class="navbar1">
+        <div class="diems"></div>
+        <a id="home" href="home.php">
+            <div id="ho"></div>Home
+        </a> 
+        <a id="creat" href="create.html">
+            <div id="cr" ></div>Create Quiz</a>
+        <a id="update" href="update.php">
+            <div id="upd"></div>Update Quiz</a>
+        <a id="history" href="history.php">
+            <div id="his"></div>History</a>
+        <a id="profile" href="profile.html">
+            <div id="pro"></div>Profile</a>
+        
+    </div>
+    <div class="content">
+        <div id="up"> Qz </div>
+        <form class="quizes" style="height:470px;" method="post" action="question.php"  >
+           <div id="quiz_one" ><input type="text" name="question" style="height:50px;width:90%;font-size:20px;border:2px solid black;border-radius:10px;padding-left:10px" placeholder="Type Question here"> </div>
+           <div id="image">Add Image: <button id="plus"></button></div>  
+           <div id="ans1">1 <input type="text" name="ans_one" id="ans_one"> <input type="checkbox" name="checkbox[]" value="Option 1" id="check1"></div>
+           <div id="ans2">2 <input type="text" name="ans_two" id="ans_two"> <input type="checkbox" name="checkbox[]" value="Option 2" id="check2"></div>
+           <div id="ans3">3 <input type="text" name="ans_three" id="ans_three"> <input type="checkbox" name="checkbox[]" value="Option 3" id="check3"></div>
+           <div id="ans4">4 <input type="text" name="ans_four" id="ans_four"> <input type="checkbox" name="checkbox[]" value="Option 4" id="check4"></div>
+           <div id="score">Score <input type="number" name="score" id="score_one"> <a id="anss"> Ans. Type <input type="text" name="ans_type" id="ans_type"></a></div>
+           <button id="done" style="margin-left:-100px;" >Next</button> 
+           <button id="done" style="margin-left:100px;margin-top: -40px;" type="submit"><a href="pdf.php" style="text-decoration: none;color: black;">Done</a></button>
+</form>
+
+    </div>
+</body>
+</html>
